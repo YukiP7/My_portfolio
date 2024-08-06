@@ -1,6 +1,3 @@
-Certainly! Here’s a polished and engaging description for your GitHub portfolio repository as a frontend developer:
-
----
 
 # My Frontend Developer Portfolio
 
