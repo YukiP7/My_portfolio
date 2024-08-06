@@ -16,8 +16,10 @@ const Header = () => {
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/skills">Skills</NavLink>
           </div>
+
+          {/* Hamburger menu for mobile devices */}
           <button onClick={() => setIsOpen(!isOpen)} className="md:hidden">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <svg className="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />
             </svg>
           </button>
@@ -28,7 +30,7 @@ const Header = () => {
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -20 }}
-          className="md:hidden"
+          className="md:hidden text-blue-500 text-center flex flex-col"
         >
           <NavLink to="/" onClick={() => setIsOpen(false)}>Home</NavLink>
           <NavLink to="/about" onClick={() => setIsOpen(false)}>About</NavLink>
@@ -44,7 +46,7 @@ const NavLink = ({ to, children, onClick }) => (
   <Link
     to={to}
     onClick={onClick}
-    className="py-2 px-4 text-xl hover:bg-gray-800 transition duration-200 hover:rounded-md-" 
+    className="py-2 px-4 text-xl hover:bg-gray-800 transition duration-200 rounded-xl" 
   >
     {children}
   </Link>
