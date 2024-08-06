@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white py-8">
       <div className="container mx-auto px-6 text-center">
-        <p>&copy; 2023 Yukti Garg. All rights reserved.</p>
+        <p>&copy; Yukti Garg. All rights reserved.</p>
         <div className="flex justify-center space-x-4 mt-4">
           <a href="https://github.com/YukiP7" className="hover:text-blue-500 transition-colors"
           target='_blank'>GitHub</a>
