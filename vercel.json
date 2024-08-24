@@ -1,0 +1,9 @@
+{
+    "version": 2,
+        "rewrites": [
+          { "source": "/(.*)", "destination": "/index.html" },
+          { "source": "/projects", "destination": "/projects" },
+          { "source": "/about", "destination": "/about" },
+          { "source": "/skills", "destination": "/skills" }
+        ]
+}
