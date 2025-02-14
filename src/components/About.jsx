@@ -21,7 +21,7 @@ const About = () => {
           </p>
           <p className="text-xl mb-6">
             When I'm not coding, you can find me exploring new technologies like Python , Data science and contributing 
-            to open-source projects, or sharing my knowledge through blog posts.
+            to open-source projects.
           </p>
           <div className="flex justify-center">
             
