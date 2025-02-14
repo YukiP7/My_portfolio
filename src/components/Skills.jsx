@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 const Skills = () => {
-  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Node.js', 'Git', 'Responsive Design'];
+  const skills = ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS', 'Node.js', 'Git', 'Responsive Design' , 'API Intgeration' , 'Java' , 'Python' , 'Pandas' , 'Numpy' , 'MatplotLib' , 'Feature Engineering' , 'Data Cleaning' , 'Exploratory Data Analysis' , 'SQL Database'];
 
   return (
     <div className="min-h-screen bg-gray-900 text-white flex items-center px-3">

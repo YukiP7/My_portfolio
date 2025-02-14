@@ -22,6 +22,12 @@ const Projects = () => {
       url:'https://github.com/YukiP7/Task2-grp-6' ,
       drive_link : 'https://drive.google.com/file/d/1TbaQsqqdqL-ZG1rHVRfFctCb3FdtLwnt/view?usp=sharing'
     },
+    { id: 4, 
+      title: 'School Management System - Internship', 
+      description: "Worked on forming a user web interface for different roles (Admin, Student, Teacher, Parent), integrated multiple APIs, and ensured smooth user flow. Developed as part of my role at Organebits Technology Ltd.",
+      url: '',
+      drive_link: ''
+    }
   ];
 
   return (
