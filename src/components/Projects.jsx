@@ -25,7 +25,7 @@ const Projects = () => {
     { id: 4, 
       title: 'School Management System - Internship', 
       description: "Worked on forming a user web interface for different roles (Admin, Student, Teacher, Parent), integrated multiple APIs, and ensured smooth user flow. Developed as part of my role at Organebits Technology Ltd.",
-      url: '',
+      url: 'https://github.com/YukiP7/school_management_ui.git',
       drive_link: ''
     }
   ];
