@@ -14,13 +14,10 @@ const About = () => {
         <h2 className="text-4xl font-bold mb-8 text-center">About Me</h2>
         <div className="max-w-3xl mx-auto">
           <p className="text-xl mb-6">
-            I'm a passionate web developer with a keen eye for design and a love for creating 
-            intuitive, user-friendly interfaces. My journey in web development started with 
-            HTML, CSS, and JavaScript, and has since expanded to include modern frameworks 
-            and libraries like React and Tailwind CSS.
+            I am a Computer Science student passionate about using data to solve real-world problems. With hands-on experience in Python, SQL, and machine learning, I build end-to-end analytical solutions-from data cleaning and exploration to model deployment and visualization. I also have a strong background in frontend development, allowing me to create interactive dashboards and user interfaces for data-driven applications.
           </p>
           <p className="text-xl mb-6">
-            When I'm not coding, you can find me exploring new technologies like Python , Data science and contributing 
+            When I'm not coding, you can find me exploring new technologies like Gen AI and contributing 
             to open-source projects.
           </p>
           <div className="flex justify-center">

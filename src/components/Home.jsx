@@ -14,7 +14,7 @@ const Home = () => {
       >
         <h1 className="text-lg md:text-3xl font-bold mb-4">HEY THERE ,</h1>
         <h1 className="text-xl md:text-5xl font-bold mb-4">I AM YUKTI GARG</h1>
-        <p className="text-lg md:text-2xl mb-8 m-2">Welcome to my site ! I am a Web Developer who willing to work with you to make user-friendly experience</p>
+        <p className="text-lg md:text-2xl mb-8 m-2">Welcome to my site ! Aspiring Data Scientist & Frontend Developer | Python, SQL, Machine Learning | Turning Data into Insights</p>
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
