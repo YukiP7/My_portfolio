@@ -15,6 +15,7 @@ const Header = () => {
             <NavLink to="/about">About</NavLink>
             <NavLink to="/projects">Projects</NavLink>
             <NavLink to="/skills">Skills</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </div>
 
           {/* Hamburger menu for mobile devices */}
@@ -36,6 +37,7 @@ const Header = () => {
           <NavLink to="/about" onClick={() => setIsOpen(false)}>About</NavLink>
           <NavLink to="/projects" onClick={() => setIsOpen(false)}>Projects</NavLink>
           <NavLink to="/skills" onClick={() => setIsOpen(false)}>Skills</NavLink>
+          <NavLink to="/contact" onClick={() => setIsOpen(false)}>Contact</NavLink>
         </motion.div>
       )}
     </header>
