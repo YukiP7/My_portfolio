@@ -39,7 +39,7 @@ const Projects = () => {
 return (
     <div className="min-h-screen bg-gray-900 text-white py-20 px-6 ">
       <h2 className="text-4xl font-bold mb-12 text-center pt-10">Featured Projects</h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-10 md:px-0 lg:px-0">
         {projects.map((proj, index) => (
           <ProjectCard key={index} {...proj} />
         ))}

@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 
 const skillGroups = {
   "👩‍💻 Programming & Scripting": [
-    "Python", "SQL", "Java", "JavaScript"
+    "Python", "Java" , "SQL"
   ],
   "📊 Data Analysis & BI Tools": [
-    "Pandas", "NumPy", "Power BI", "Tableau", "Excel"
+    "Pandas", "NumPy", "Power BI", "Excel"
   ],
   "🧠 Machine Learning & Modeling": [
     "Scikit-learn", "Matplotlib", "Feature Engineering", "EDA", "Data Cleaning" , "Data visualization" , "Supervised & Unsupervised ML"

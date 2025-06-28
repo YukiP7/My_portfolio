@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import resumePdf from '../assets/documents/Yukti-Resume.pdf'
+import resumePdf from '../assets/documents/Yukti-resume.pdf'
 
 const About = () => {
   return (
